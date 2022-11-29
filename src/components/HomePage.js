@@ -1,23 +1,17 @@
-import React from 'react';
-import reactImage from "../Images/react.png";
-import jsImage from "../Images/js.png";
-import firebaseImage from "../Images/firebase.jpg";
-import profileImage from "../Images/sibainu.jpg";
-
+import React from "react";
 
 const HomePage = () => {
   return (
     <div className="container text-center">
-      <h1>Shin Code</h1>
+      <img src="https://pbs.twimg.com/profile_images/1597591879402520576/ZsDMGsJu_400x400.jpg" className="profileImage" />
+      <h1>shosei</h1>
+      <h2>Takeru Sakata</h2>
 
-      <img src={profileImage} className="profileImage" />
 
       <p>
-        ShinCodeです。普段は個人でWeb系の情報発信をYoutubeやTwitterにて行っています。主にHTML/CSS/Javascript/Reactメインに取り扱っています。趣味は個人でプログラミングの撮影を行うことです。
-        ShinCodeです。普段は個人でWeb系の情報発信をYoutubeやTwitterにて行っています。主にHTML/CSS/Javascript/Reactメインに取り扱っています。趣味は個人でプログラミングの撮影を行うことです。
       </p>
 
-      <section class="page-section" id="services">
+      {/* <section class="page-section" id="services">
         <div className="service">
           <div class="text-center">
             <h2 class="section-heading text-uppercase">PORTFOLIO</h2>
@@ -64,9 +58,9 @@ const HomePage = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
-      <section id="skill">
+      {/* <section id="skill">
         <div class="text-center">
           <h1 class="title">スキル</h1>
           <div class="row text-center">
@@ -89,10 +83,11 @@ const HomePage = () => {
           <button type="button" class="btn btn-primary">
             スキル一覧
           </button>
-        </div>
-      </section>
-    </div>
+        </div> */}
+      {/* </section> */}
+    </div >
   );
-}
+};
 
 export default HomePage;
+
