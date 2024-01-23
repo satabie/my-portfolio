@@ -3,7 +3,7 @@ import React from "react";
 const HomePage = () => {
   return (
     <div className="container text-center">
-      <img src="https://pbs.twimg.com/profile_images/1597591879402520576/ZsDMGsJu_400x400.jpg" className="profileImage" />
+      <img src="https://avatars.githubusercontent.com/u/74339912?v=4 " className="profileImage" />
       <h1>shosei</h1>
       <h2>Takeru Sakata</h2>
 
